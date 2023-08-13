@@ -1,0 +1,48 @@
+#frame
+{
+	width: 1000px; /*Ширина*/
+	background-image: url("foto/pole2.jpg"); /*вставка фонового рисунка
+	/*background-color: deepskyblue; /*Цвет фона*/
+	background-color: white;
+	margin:auto; /*Выравнивание по центру*/
+	display: table; /*Отображение в табличной форме (представление в форме таблицы)*/
+	height: 100%; /*Высота*/
+}
+#header
+{
+	width: 980px;
+	height: 50px;
+	background-color: transparent;     /*прозрачный цвет*/
+	/*background-color: white;*/
+	/*margin: auto;*/
+	margin-top: 0px;
+	/*padding: 20px;*/
+	text-align: center;
+	font-size: 40px; /*размер шрифта*/
+	font-family: "Times New Roman"; /*Вид шрифта*/
+	color: MediumBlue;
+	text-shadow:3px -3px 1px white;  /*выпуклые буквы*/
+    -1px 1px 1px blue;
+}
+#center
+{
+	width: 990px; /*Ширина*/
+	margin-top: 50px;
+	text-align: center;
+	color: blue;
+	font-size: 25px; /*размер шрифта*/
+	text-shadow:3px 1px 1px white;,  /*выпуклые буквы*/
+    -1px 1px 1px blue;
+}
+#footer
+{
+	display: table-footer-group;
+	width: 940px;
+	height: 50px;
+	/*background-color: LightBlue;*/
+	background-color: transparent;     /*прозрачный цвет*/
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+	color: blue;
+}

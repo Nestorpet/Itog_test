@@ -1,0 +1,123 @@
+#frame
+{
+	width: 1000px; /*Ширина*/
+	background-image: url("foto/pole3.jpg"); /*вставка фонового рисунка
+	/*background-color: deepskyblue; /*Цвет фона*/
+	background-color: white;
+	margin:auto; /*Выравнивание по центру*/
+	display: table; /*Отображение в табличной форме (представление в форме таблицы)*/
+	height: 100%; /*Высота*/
+}
+#header
+{
+	width: 980px;
+	height: 50px;
+	background-color: transparent;     /*прозрачный цвет*/
+	/*background-color: white;*/
+	/*margin: auto;*/
+	margin-top: 0px;
+	/*padding: 20px;*/
+	text-align: center;
+	font-size: 40px; /*размер шрифта*/
+	font-family: "Times New Roman"; /*Вид шрифта*/
+	color: MediumBlue;
+	text-shadow:3px -3px 1px white;  /*выпуклые буквы*/
+    -1px 1px 1px blue;
+	
+
+}
+#center
+{
+	width: 950px; /*Ширина*/
+	margin-top: 50px;
+	color: blue;
+	font-size: 25px; /*размер шрифта*/
+	text-shadow:3px 1px 1px white;,  /*выпуклые буквы*/
+    -1px 1px 1px blue;
+}
+#footer
+{
+	display: table-footer-group;
+	width: 940px;
+	height: 50px;
+	/*background-color: LightBlue;*/
+	background-color: transparent;     /*прозрачный цвет*/
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+	color: blue;
+}
+
+#content
+{
+	width: 500px;
+	height: 500px;
+	margin: 15px;
+	padding: 5px;
+	/*background-color: LightCyan;*/
+	/*opacity: 0.2; */				/*прозрачность фона*/
+
+	text-align: center;
+	float: left;
+	font-size: 20px; /*размер шрифта*/
+	font-family: "Times New Roman"; /*Вид шрифта*/
+	color: MediumBlue;
+
+}
+#sidebar
+{
+	
+	width: 200px;
+	height: 200px;
+	/*background-color: LightCyan;*/
+	
+	/*text-shadow:3px 1px 1px black,  /*выпуклые буквы*/
+    -1px 1px 1px blue;*/
+  	color: blue;
+  	transition: all .5s;
+	margin: 15px;
+	float: right;
+	text-align: center;
+
+}
+#menu
+{
+	background: transparent;
+	padding: 10px;
+	margin: 10px;
+	color: black;
+	font-size: 25px; /*размер шрифта*/
+	font-family: "Times New Roman"; /*Вид шрифта*/
+	text-align: center;
+	word-spacing: 40px; /* расстояние между словами */
+}
+#inMenu
+{
+	width: 200px;
+	height: 400px;
+float: left;
+
+text-align: center;
+background: transparent;
+margin: 15px;
+text-align: center;
+	font-size: 20px; /*размер шрифта*/
+	font-family: "Times New Roman"; /*Вид шрифта*/
+	color: blue;
+
+	text-shadow: 1px /*сдвиг тени вправо/влево +/-*/ 1px /*сдвиг тени вниз/вверх +/-*/1px black, 
+	0 /*сдвиг пятна за тенью вправо/влево +/-*/ 0 1em blue; /* Параметры тени */
+    color: LightBlue; /* Белый цвет текста */
+    
+
+
+
+
+
+}
+#inMenu
+{
+	display: block;
+}
+
+/* Пипец день только начался, а уже хочется домой */
